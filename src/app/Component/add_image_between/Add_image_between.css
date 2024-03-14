@@ -1,0 +1,17 @@
+/* Add_image_between.css */
+.image_container_back {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Or adjust to your needs */
+    z-index: -1;
+  }
+  
+  .image_back {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
+  

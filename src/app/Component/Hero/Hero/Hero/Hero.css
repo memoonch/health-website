@@ -1,0 +1,58 @@
+/* Hero.css */
+.background-container {
+    position: relative;
+    width: 100%;
+    height: 400px; /* Adjust height as needed */
+    overflow: hidden;
+    padding-top: 47.25%; /* 9:16 aspect ratio */
+   background-color: #0c08086e;
+
+  }
+  
+  .background-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 119%;
+    object-fit: cover;
+    z-index: -1;
+  }
+  
+  .hero_text {
+    position: absolute;
+    top: 65%;
+    left: 24%;
+    transform: translate(-50%, -50%);
+    width: 40%;
+    
+  }
+  
+  .hero_h1 {
+    font-size: 4.4rem;
+    margin-bottom: 20px;
+    color: #F0C808;
+  }
+  
+  .hero_p {
+    font-size: 0.9rem;
+    margin-bottom: 30px;
+    color: white;
+  }
+  
+  .hero_btn {
+    padding: 13px 20px;
+    font-size: 1.2rem;
+    background-color: #0c080800; /* Green color, change as needed */
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+    border: 1px solid white;
+  }
+  
+  .hero_btn:hover {
+    background-color: #45a049; /* Darker green color, change as needed */
+  }
+  

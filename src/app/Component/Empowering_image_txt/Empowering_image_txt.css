@@ -1,0 +1,43 @@
+.container_emp{
+    width: 100%;
+    background-color: #d392925b;
+    padding-bottom: 0.2px;
+    margin-top: -84px;
+    z-index: 2;
+}
+
+.text-container-sub{
+
+    margin: 80px 160px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    background-color: white;
+    z-index: 1;
+}
+
+.image_empower{
+    width: 100%;
+    height: 590px;
+    border-radius: 48px 
+
+}
+
+.txt_emp_2 h1{
+    font-size: 52px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.para{
+
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 30px;
+    margin-left: 23px;
+    margin-right: 23px;
+}
+.p1 ,.p2 ,.p3{
+    font-size: 25px;
+    color: #000000;
+}

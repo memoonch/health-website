@@ -1,0 +1,40 @@
+.Conainer_bord {
+    background-color: #d392921a;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .Bord-containersub {
+    max-width: 850px;
+    margin: 0 auto;
+    background-color: #F0C808;
+    padding: 102px 53px;
+    border-radius: 50px
+  }
+
+  
+  .Bord-heading {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .Bord-text {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 40px;
+    color: #666;
+  }
+  
+  .Bord-button {
+    background-color: #9fe870;
+    color: black;
+    padding: 15px 30px;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 14px;
+  }
+  

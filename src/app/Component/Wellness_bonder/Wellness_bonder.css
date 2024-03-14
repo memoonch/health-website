@@ -1,0 +1,51 @@
+.container_Full_wellness{
+width: 100%;
+}
+.container_three_type{
+    display: flex;
+}
+.heading_welness h1{
+    font-size: 60px;
+    text-align: center;
+}
+.heading_welness{
+    margin-bottom: 50px;
+    margin-top: 150px;
+}
+
+.image1_three_type{
+    width: 330px;
+    height: 415px;
+    border-radius: 44px
+}
+
+.div1_three_type h1{
+    font-size: 29px;
+    margin-left: 10px 
+}
+
+.p_data {
+    font-size: 21px;
+    margin-left: 10px;
+}
+.p_taxt{
+    font-size: 21px;
+    margin-left: 10px;
+    width: 331px;
+}
+.div1_three_type button{
+    padding: 20px;
+    border-radius: 40px;
+    font-weight: 800;
+    font-size: 20px;
+    background-color: #7FB069;
+    border: none;
+    width: 200px;
+
+
+}
+.div1_three_type{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}

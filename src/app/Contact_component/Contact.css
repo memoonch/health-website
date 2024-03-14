@@ -1,0 +1,23 @@
+.container_con{
+    background-color: #d392921a;
+    margin-top: 110px;
+}
+.left_side_contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 30px;
+
+}
+.container_con{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 46px
+}
+.left_side_contact h1{
+    font-size:55px;
+}
+.all_p p{
+    font-size: 22px;
+}

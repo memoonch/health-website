@@ -1,0 +1,45 @@
+.banner {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+margin-top: 65px;
+  }
+  
+  .banner_container{
+    background-color: white;
+    margin-top: 70px;
+  }
+  .banner-text {
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+  }
+  
+  .social-icons {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .social-icons a {
+    color: #333377f5;
+    font-size: 2.8rem;
+    background: grey;
+    border-radius: 134px;
+    width: 96px;
+    height: 96px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  .social-icons{
+    display: flex;
+    gap: 100px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 100%
+  }
+  

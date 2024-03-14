@@ -1,0 +1,62 @@
+/* Set basic styles for the header */
+#header {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 12px 0;
+    border-radius: 50px;
+    position: absolute;
+    width: 80%;
+    left: 153px;
+    top: 25px;
+    z-index: 1;
+    box-shadow: 0 2px 34px rgba(0, 0, 0, 0.5); /* Add this line to create a shadow */
+    position: fixed;
+}
+
+/* Style the container */
+.container_header {
+    display: flex;
+    align-items: center;
+    max-width: 1273px;
+    position: relative;
+    justify-content: space-around;
+}
+
+.Right_side button {
+    padding: 20px;
+    border-radius: 40px;
+    font-weight: 800;
+    font-size: 20px;
+    background-color: #7FB069;
+    border: none;
+}
+
+/* Style the navigation menu */
+.menu_between {
+    display: flex;
+    list-style: none;
+    color: #333;
+    font-weight: 600;
+    gap: 50px;
+}
+
+.left_side Image {
+    width: 10px;
+}
+
+.left_side {
+    display: flex;
+    align-items: center; /* This will vertically center the image and h1 */
+}
+
+.header_image {
+    border-radius: 26px;
+    width: 104px;
+    margin-left: -64px;
+    margin-right: 20px;
+}
+
+.h1_header {
+    font-size: 20px;
+    margin: 0; /* Remove default margin */
+    color: #333
+}

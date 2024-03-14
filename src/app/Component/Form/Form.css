@@ -1,0 +1,54 @@
+/* Style the form container */
+.contact-form {
+    background-color: #e0f2f1;
+    padding: 30px;
+    border-radius: 5px;
+    width: fit-content;
+    margin: 0 auto;
+  }
+  
+  /* Style the form title */
+  .contact-form h2 {
+    text-align: center;
+    color: #338037;
+    margin-bottom: 20px;
+  }
+  
+  /* Style the input fields */
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin-bottom: 10px;
+    border: 1px solid #338037;
+    border-radius: 3px;
+    box-sizing: border-box;
+    resize: vertical; /* Allow vertical resizing for textarea */
+  }
+  
+  /* Style the optional phone field (adjust as needed) */
+  .contact-form input[type="tel"] {
+    border-color: #ccc;
+  }
+  
+  /* Style the message field */
+  .contact-form textarea {
+    height: 100px;
+  }
+  
+  /* Style the submit button */
+  .contact-form button[type="submit"] {
+    background-color: #338037;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+  }
+  
+  /* Add hover effect to the button */
+  .contact-form button[type="submit"]:hover {
+    background-color: #296e2f;
+  }
+  
